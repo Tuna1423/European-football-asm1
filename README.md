@@ -38,7 +38,7 @@ Trong notebook này, các tác vụ chính bao gồm:
 2. Cài đặt các thư viện cần thiết:
 ```bash
    pip install pandas numpy
-
+```bash
 
 
 
