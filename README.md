@@ -36,11 +36,7 @@ Trong notebook này, các tác vụ chính bao gồm:
 ## 📋 Hướng Dẫn Chạy Dự Án
 1. Tải file cơ sở dữ liệu `database.sqlite` (từ nguồn Kaggle European Football Database) và đặt cùng thư mục với file notebook.
 2. Cài đặt các thư viện cần thiết:
-```bash
-   pip install pandas numpy
-```bash
-
-
+3. Chạy lần lượt các dòng code trong file theo thứ tự từ trên xuống
 
 
 ## 2. This Is version English
