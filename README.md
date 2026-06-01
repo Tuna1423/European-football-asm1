@@ -41,7 +41,6 @@ Trong notebook này, các tác vụ chính bao gồm:
 
 ## 2. This Is version English
 
-```markdown
 # European Soccer Data Analysis using SQL & Python
 
 ## 📝 Project Overview
