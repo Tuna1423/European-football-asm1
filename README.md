@@ -38,3 +38,46 @@ Trong notebook này, các tác vụ chính bao gồm:
 2. Cài đặt các thư viện cần thiết:
 ```bash
    pip install pandas numpy
+---
+
+## 2. This Is version English
+
+```markdown
+# European Soccer Data Analysis using SQL & Python
+
+## 📝 Project Overview
+This project focuses on querying and extracting insights from the **European Soccer Database** using SQL within a Python environment. The primary goal is to practice writing complex SQL queries to pull data, perform exploratory data analysis (EDA), and handle basic statistical tasks. 
+
+*Note: As per the project requirements, all data manipulations and calculations are performed strictly via SQL queries, avoiding Pandas for computation.*
+
+## 📊 Dataset Description
+The dataset contains comprehensive data on European professional soccer from **2008 to 2016**, featuring:
+- Over **25,000 matches** and **10,000+ players**.
+- Data covering **11 European countries** with their top-tier leagues.
+- Player and Team attributes sourced and updated weekly from EA Sports' **FIFA video game series**.
+
+### Database Schema Includes:
+- `Country` & `League`
+- `Match` (Scores, player lineups, betting odds, etc.)
+- `Team` & `Team_Attributes`
+- `Player` & `Player_Attributes`
+
+## 🛠️ Tech Stack
+- **Language:** Python
+- **Libraries:** `pandas`, `numpy`, `sqlite3`
+- **Database Engine:** SQLite
+
+## 🚀 Key Queries & Questions Addressed
+1. Connecting to the SQLite database and exploring the schema (`sqlite_master`).
+2. Listing all participating countries.
+3. Fetching all football leagues in the dataset.
+4. Joining `League` and `Country` tables using relational keys.
+5. Querying the `Match` table to retrieve home/away team performances and goals.
+6. Performing multi-table `JOIN` operations (`Match` + `League` + `Country`) to build unified datasets for analysis.
+
+## 📋 How to Run
+1. Download the `database.sqlite` file and place it in the project root directory.
+2. Install dependencies:
+```bash
+   pip install pandas numpy
+---
